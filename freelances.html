@@ -19,5 +19,146 @@ src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.j
 ></script>
  <!-- Votre script JavaScript -->
  <script src="js/main.js"></script>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top" >
+  <div class="container-fluid">
+    <a class="navbar-brand" href=""><img src="image/WhatsApp Image 2026-05-11 at 09.48.34.jpeg" alt="" width="70px">AfriTalent</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="index.html">Acceuil</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="freelances.html">Freelances</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="tarif.html">Tarif</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="about.html">A propos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="contact.html">Contact</a>
+        </li>
+      </ul>
+      <form class="d-flex" role="">
+        <button class="btn btn-outline-success" type="submit">Rejoindre AfriTalent</button>
+      </form>
+    </div>
+  </div>
+</nav>
+ <div class="container py-5">
+    <h2 class text-center mb-4>Nos Freelances</h2>
+    <!-- FILTRES -->
+     <div>
+        <button class="btn btn-outline-primary filter-btn" data-filter="all">Tous</button>
+        <button class="btn btn-outline-primary filter-btn" data-filter="dev">Développement</button>
+        <button class="btn btn-outline-primary filter-btn" data-filter="design">Design</button>
+        <button class="btn btn-outline-primary filter-btn" data-filter="marketing">Marketing</button>
+     </div>
+     <!-- GRID -->
+      <div class="row g-4" id="freelances-list">
+        <!-- CARD -->
+         <div class="col-md-4 col-sm-6 freelances" data-category="dev">
+            <div class="card p-3 text-center">
+                <img src="image/WhatsApp Image 2026-05-03 at 17.32.28 (3).jpeg" class="rounded-circle mb-3" alt="">
+                <h5>Soxna Maguette Mbow</h5>
+                <p>Developpeuse Web</p>
+                <p class="small">Creation de sites modernes et performants</p>
+                <p><strong>40000/h</strong></p>
+                <button class="btn btn-primary">Voir profil</button>
+            </div>
+         </div>
+         <div class="col-md-4 col-sm-6 freelances" data-category="dev">
+            <div class="card p-3 text-center">
+                <img src="image/WhatsApp Image 2026-05-03 at 17.32.28 (2).jpeg" class="rounded-circle mb-3" alt="">
+                <h5>Soxna Aida Niang</h5>
+                <p>Marketing Digital</p>
+                <p class="small">Stratégies de croissance en ligne</p>
+                <p><strong>35000/h</strong></p>
+                <button class="btn btn-primary">Voir profil</button>
+            </div>
+         </div>
+         <div class="col-md-4 col-sm-6 freelances" data-category="dev">
+            <div class="card p-3 text-center">
+                <img src="image/WhatsApp Image 2026-05-03 at 18.20.55.jpeg" class="rounded-circle mb-3" alt="">
+                <h5>Mourtalla Mbow</h5>
+                <p>UI/UX Designer</p>
+                <p class="small">Designe d'applications intuitives</p>
+                <p><strong>25000/h</strong></p>
+                <button class="btn btn-primary">Voir profil</button>
+            </div>
+         </div>
+         <!-- DUPLIQUE POUR AVOIR 9 -->
+         <div class="col-md-4 col-sm-6 freelances" data-category="dev">
+            <div class="card p-3 text-center">
+                <img src="image/WhatsApp Image 2026-05-03 at 17.37.36 (3).jpeg" class="rounded-circle mb-3" alt="">
+                <h5>Soxna Marame Fall</h5>
+                <p>Développeuse </p>
+                <p class="small">Applications web sur mesure</p>
+                <p><strong>30000/h</strong></p>
+                <button class="btn btn-primary">Voir profil</button>
+            </div>
+         </div>
+         <div class="col-md-4 col-sm-6 freelances" data-category="dev">
+            <div class="card p-3 text-center">
+                <img src="image/WhatsApp Image 2026-05-03 at 17.37.36.jpeg" class="rounded-circle mb-3" alt="">
+                <h5>Ameth Mbow</h5>
+                <p>Designer</p>
+                <p class="small">Brandinget UI design</p>
+                <p><strong>40000/h</strong></p>
+                <button class="btn btn-primary">Voir profil</button>
+            </div>
+         </div>
+         <div class="col-md-4 col-sm-6 freelances" data-category="dev">
+            <div class="card p-3 text-center">
+                <img src="image/WhatsApp Image 2026-05-03 at 17.37.35.jpeg" class="rounded-circle mb-3" alt="">
+                <h5>Mariama Mbow</h5>
+                <p>SEO Expert</p>
+                <p class="small">Optimisation Google</p>
+                <p><strong>30000/h</strong></p>
+                <button class="btn btn-primary">Voir profil</button>
+            </div>
+         </div>
+         <div class="col-md-4 col-sm-6 freelances" data-category="dev">
+            <div class="card p-3 text-center">
+                <img src="image/WhatsApp Image 2026-05-03 at 17.37.36 (1).jpeg" class="rounded-circle mb-3" alt="">
+                <h5>Ibrahima Thiam</h5>
+                <p>Superviseur</p>
+                <p class="small">Gestion,d'encadrement et de conseil</p>
+                <p><strong>26000/h</strong></p>
+                <button class="btn btn-primary">Voir profil</button>
+            </div>
+         </div>
+         <div class="col-md-4 col-sm-6 freelances" data-category="dev">
+            <div class="card p-3 text-center">
+                <img src="image/WhatsApp Image 2026-05-03 at 17.37.36.jpeg" class="rounded-circle mb-3" alt="">
+                <h5>Modou Gueye</h5>
+                <p>comptable</p>
+                <p class="small">Gestion des finances</p>
+                <p><strong>36000/h</strong></p>
+                <button class="btn btn-primary">Voir profil</button>
+            </div>
+         </div>
+         <div class="col-md-4 col-sm-6 freelances" data-category="dev">
+            <div class="card p-3 text-center">
+                <img src="image/WhatsApp Image 2026-05-03 at 17.37.36 (3).jpeg" class="rounded-circle mb-3" alt="">
+                <h5>Nafi Ka</h5>
+                <p>Sécrétaire</p>
+                <p class="small">Acceuil des visiteurs</p>
+                <p><strong>30000/h</strong></p>
+                <button class="btn btn-primary">Voir profil</button>
+            </div>
+         </div>
+      </div>
+ </div>
+ <!-- Ligne copyright -->
+                     <div class="text-center mt-4 border-top pt-3">
+                        <p>
+                        &copy; <span id="year"></span>AfriTalent.Tous droits réservés.
+                        </p>
+                     </div>
  </body>
 </html>
