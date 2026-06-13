@@ -19,9 +19,8 @@ rel="stylesheet">
 src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
 ></script>
 <!-- Votre script JavaScript -->
- <script src="js/main.js"></script>
  <!-- NAVBAR -->
-  <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top " style="background-color: darkgray;">
   <div class="container-fluid">
     <a class="navbar-brand" href=""><img src="image/WhatsApp Image 2026-05-11 at 09.48.34.jpeg" alt="" width="70px">AfriTalent</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -45,69 +44,70 @@ src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.j
           <a class="nav-link active" aria-current="page" href="contact.html">Contact</a>
         </li>
       </ul>
-      <form class="d-flex" role="">
-        <button class="btn btn-outline-success" type="submit">Rejoindre AfriTalent</button>
+      <form class="d-flex mt-1" role="" >
+        <button class="text-light btn btn-primary" type="submit" style="background-color: rgb(38, 43, 51);"><a href="index.html">Rejoindre AfriTalent</a></button>
       </form>
+      <button id="theme-toggle" class="btn btn-outline-primary ms-3"><i class="fa-regular fa-moon"></i></button>
     </div>
   </div>
 </nav>
  <!-- HERO -->
   <section class="hero text-center">
     <div class="container">
-        <h1 class="display-3 fw-bold">Identifiez les profils africains les plus qualifiés</h1>
-        <p class="lead">Freelances qualifié pour tous vos projets</p>
+        <h1 class="display-3 fw-bold text-white">Identifiez les profils africains les plus qualifiés</h1>
+        <p class="lead-text text-white">Freelances qualifié pour tous vos projets</p>
         <div class="mt-4">
-            <button class="btn btn-primary">je suis Freelances</button>
-            <button class="btn btn-primary">je cherche un Freelances</button>
-        </div>
+            <button class="btn btn-primary"><a class="text-light" href="freelances.html">je suis Freelances</a></button>
+            <button class="btn btn-primary"><a class="text-light" href="freelances.html">je cherche un Freelances</a></button>
+        </div>      
         <!-- Stats -->
+         <class="how-it-works text-center text-white">
          <div class="row mt-5">
-            <div class="col">
-                <h2 class="counter" data-target="2500">2500</h2>
+            <div class="col text-white">
+                <h2 class="counter" data-target="2500">+2500</h2>
                 <p>Freelances</p>
             </div>
-            <div class="col">
-                <h2 class="counter" data-target="800">800</h2>
+            <div class="col text-white">
+                <h2 class="counter" data-target="800">+800</h2>
                 <p>Entreprises</p>
             </div>
-            <div class="col">
-                <h2 class="counter" data-target="12000">12000</h2>
+            <div class="col text-white">
+                <h2 class="counter" data-target="12000">+12000</h2>
                 <p>Missions</p>
             </div>
          </div>
+         </section>
          <!-- COMMENT CA MARCHE -->
-          <section class="how-it-works">
+          <section class="how-it-works text-center">
             <h2>Comment ça marche</h2>
             <div class="bento-grid">
                 <div class="card card-large">
                     <span class="step">01</span>
-                    <div class="icon"></div>
+                    <div class="fa-solid fa-address-card"></div>
                     <h3>Inscription</h3>
                     <a>Créez votre compte en quelques secondes et accedéz à nos service.</a>
                 </div>
                 <div class="card">
                     <span class="step">02</span>
-                    <div class="icon"></div>
+                    <div class="fa-solid fa-user"></div>
                     <h3>Utilisation</h3>
                     <a>Profitez pleinement de la platforme et de ses fonctionnalités.</a>
                 </div>
                 <div class="card">
                     <span class="step">03</span>
-                    <div class="icon"></div>
+                    <div class="fa-solid fa-archway"></div>
                     <h3>Configuration</h3>
                     <a>Personnalisez vos paramétres selon vos besions.</a>
                 </div>
             </div>
           </section>
-               
-          <section>
           <!-- CATEGORIES -->
-           <section class="container py-5">
-                <h1 class="text-center mb-4">Catégories</h1>
+           <section class="container py-5 text-center d-flex justify-content-between">
+                <h1 class="text-center "></h1>
 
                 <div class="row">
                     <div col-md-4 mb-3>
-                        <div class="p-3 shadow text-center>
+                        <div class="p-3 shadow text-center gap-2>
                             <i class="bi bi-code-slash fs-1"></i>
                             <img src="image/internet.png" width="60">
                             <h4>Développement Web</h4>
@@ -159,33 +159,33 @@ src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.j
                
            </section>
            <!-- TEMOIGNAGES-->
-            <section class="container py-5">
-                <h2 class="text-center mb-4"></h2>
-                <div id="carousel-Example" class="carousel slide">
-                    <div class="caroul-inner text-center">
-                        <div class="caroul-item active">
-                            <img src="image/WhatsApp Image 2026-05-03 at 18.35.00 (1).jpeg" width="500">
-                            <h3>"Excellent service !"</h3>
-                            <h6>Maguette Gueye</h6>
-                            <i class="fa-solid fa-star" style="color: rgb(255, 212, 59);"></i><i class="fa-solid fa-star" style="color: rgb(255, 212, 59);"></i><i class="fa-solid fa-star" style="color: rgb(255, 212, 59);"></i><i class="fa-solid fa-star" style="color: rgb(255, 212, 59);"></i><i class="fa-solid fa-star" style="color: rgb(255, 212, 59);"></i>
-                        </div>
-                        <div class="caroul-item active">
-                            <img src="image/WhatsApp Image 2026-05-03 at 18.35.00 (2).jpeg" width="500" alt="">
-                            <h3>"Travaille Rapide !"</h3>
-                            <h6>Aida Niang</h6>
-                            <i class="fa-solid fa-star" style="color: rgb(255, 212, 59);"></i><i class="fa-solid fa-star" style="color: rgb(255, 212, 59);"></i><i class="fa-solid fa-star" style="color: rgb(255, 212, 59);"></i><i class="fa-solid fa-star" style="color: rgb(255, 212, 59);"></i><i class="fa-solid fa-star" style="color: rgb(255, 212, 59);"></i>
-                        </div>
-                        <div class="caroul-item active">
-                            <img src="image/WhatsApp Image 2026-05-03 at 18.35.00.jpeg" width="500">
-                            <h3>"Trés satisfaite du resultat, merci !"</h3>
-                            <h6>Marame Fall</h6>
-                            <i class="fa-solid fa-star" style="color: rgb(255, 212, 59);"></i><i class="fa-solid fa-star" style="color: rgb(255, 212, 59);"></i><i class="fa-solid fa-star" style="color: rgb(255, 212, 59);"></i><i class="fa-solid fa-star" style="color: rgb(255, 212, 59);"></i><i class="fa-solid fa-star" style="color: rgb(255, 212, 59);"></i>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <section class="cta text-white text-center d-flex align-item-center container py-5">
-                <footer class="bg-dark text-white pt-5 pb-3">
+            <section class="text-center">
+            <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="image/maguette.jpeg" class="d-block w-80" alt="...">
+      <h3>"Excellent service !"</h3>
+      <h6>MAGUETTE GUEYE</h6>
+      <i class="fa-solid fa-star" style="color: rgb(255, 212, 59);"></i><i class="fa-solid fa-star" style="color: rgb(255, 212, 59);"></i><i class="fa-solid fa-star" style="color: rgb(255, 212, 59);"></i><i class="fa-solid fa-star" style="color: rgb(255, 212, 59);"></i><i class="fa-solid fa-star" style="color: rgb(255, 212, 59);"></i>
+    </div>
+    <div class="carousel-item ">
+      <img src="image/aida.jpeg" class="d-block w-80" alt="...">
+      <h3>"Travaille Rapide !"</h3>
+      <h6>AÏDA NIANG</h6>
+      <i class="fa-solid fa-star" style="color: rgb(255, 212, 59);"></i><i class="fa-solid fa-star" style="color: rgb(255, 212, 59);"></i><i class="fa-solid fa-star" style="color: rgb(255, 212, 59);"></i><i class="fa-solid fa-star" style="color: rgb(255, 212, 59);"></i><i class="fa-solid fa-star" style="color: rgb(255, 212, 59);"></i>
+    </div>
+    <div class="carousel-item">
+      <img src="image/miss.jpeg" class="d-block w-80" alt="...">
+      <h3>"Trés satisfaite du resultat, merci !"</h3>
+      <h6>NAFI Kâ</h6>
+      <i class="fa-solid fa-star" style="color: rgb(255, 212, 59);"></i><i class="fa-solid fa-star" style="color: rgb(255, 212, 59);"></i><i class="fa-solid fa-star" style="color: rgb(255, 212, 59);"></i><i class="fa-solid fa-star" style="color: rgb(255, 212, 59);"></i><i class="fa-solid fa-star" style="color: rgb(255, 212, 59);"></i>
+    </div>
+  </div>
+</div>
+</section>
+            
+            <section class="cta text-white text-center d-flex align-item-center container ">
+                <footer class="bg-dark text-white pb-3">
                     <div class="container">
                         <div  class="row">
                     <div class="container" >
@@ -193,7 +193,7 @@ src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.j
                         <p class="lead">
                              Connectez- vous, apprenez, partagez et avancez ensemble pour un avenir meilleur en Afrique.
                         </p>
-                        <a href="" class="btn btn-warning btn-lg mt-3">
+                        <a href="" class="btn btn-warning btn-lg mt-3 mb-5">
                             <i class="bi bi-person"></i>S'incrire maintenant
                         </a>
                     </div>
@@ -212,7 +212,7 @@ src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.j
 
   <!-- FOOTER -->
 
-  <footer class="bg-dark text-white py-5">
+  <footer class="bg-dark text-white">
 
     <div class="container">
 
@@ -221,7 +221,7 @@ src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.j
         <div class="col-lg-4">
 
           <h2>
-           <a class="navbar-brand"><img src="image/WhatsApp Image 2026-05-11 at 09.48.34.jpeg" width="90PX" >AfriTalent</a>
+           <a class="navbar-brand text-white w-50"><img src="image/WhatsApp Image 2026-05-11 at 09.48.34.jpeg" width="100PX">AfriTalent</a>
           </h2>
 
           <p>
@@ -298,6 +298,7 @@ src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.j
                      </div>
                 </footer>
             </section>
-            
+  <script src="js/main.js"></script>   
+  <button id="backTopTop" class="btn btn-outline-primary ms-3"><i class="fa-solid fa-arrow-down"></i></button>       
  </body>
 </html>

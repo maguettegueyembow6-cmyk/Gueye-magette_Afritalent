@@ -19,7 +19,7 @@ src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.j
 ></script>
 <!-- Votre script JavaScript -->
  <script src="js/main.js"></script>
-  <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top " style="background-color: darkgray;">
   <div class="container-fluid">
     <a class="navbar-brand" href=""><img src="image/WhatsApp Image 2026-05-11 at 09.48.34.jpeg" alt="" width="70">AfriTalent</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -44,55 +44,62 @@ src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.j
         </li>
       </ul>
       <form class="d-flex" role="">
-        <button class="btn btn-outline-success" type="submit">Rejoindre AfriTalent</button>
+        <button class=" text-light btn btn-primary" type="submit" style="background-color: rgb(29, 35, 44);"><a href="index.html">Rejoindre AfriTalent</a></button>
       </form>
     </div>
   </div>
 </nav>
- <div>
-    <h2>Nos Tarifs</h2>
-    <div>
-        <!-- GRATUIT -->
-         <div>
-            <div>
-                <h4>Gratuit</h4>
-                <h2>0/mois</h2>
-                <ul>
-                    <li>✔Accés limité</li>
-                    <li>✔Profil basique</li>
-                    <li>✔Support prioritaire</li>
-                </ul>
-                <button>Choisir</button>
-            </div>
-         </div>
-         <!-- PRO (POPULAIRE) -->
-          <div>
-            <div>
-                <h4>Pro</h4>
-                <h2>250000/mois</h2>
-                <ul>
-                    <li>✔Accés complet</li>
-                    <li>✔Profil avancé</li>
-                    <li>✔Support prioritaire</li>
-                </ul>
-                <button>Choisir</button>
-            </div>
-          </div>
-          <!-- ENTREPRISE -->
-           <div>
-            <div>
-                <h4>Entreprises</h4>
-                <h2>520000/mois</h2>
-                <ul>
-                    <li>✔Tout inclus</li>
-                    <li>✔Support dédié</li>
-                    <li>✔Gestion équipe</li>
-                </ul>
-                <button>Choisir</button>
-            </div>
-           </div>
+
+ <section class="pricing py-5">
+  <div class="container">
+    <h2 class="text-center mb-5">Nos tarif</h2>
+    <div class="row g-4">
+      <!--Gratuit-->
+      <div class="col-12 col-md-6 col-lg-4">
+        <div class="card h-100 text-center p-4">
+          <h3>Gratuit</h3>
+          <h2>0$/mois</h2>
+          <ul class="list-unstyled my-4">
+            <li>✔Utilisateur</li>
+            <li>✔Support Email</li>
+            <li>✗Tableau de bord avancé</li>
+            <li>✗API</li>
+          </ul>
+          <a href="#" class="btn btn-outline-primary">Commencer</a>
+        </div>
+      </div>
+      <!--Pro-->
+      <div class="col-12 col-md-6 col-lg-4">
+        <div class="card h-100 text-center p-4 plan-populaire">
+          <span class="badge bg- btn-warning mb-3 text-black ">Populaire</span>
+          <h3>Pro</h3>
+          <h2>29$/mois</h2>
+          <ul class="list-unstyled my-4">
+            <li>✔10 Utilisateurs</li>
+            <li>✔Support prioritaire</li>
+            <li>✔Tableau de bord avancé</li>
+            <li>✗API</li>
+          </ul>
+          <a href="#" class="btn btn-primary">Choisir Pro</a>
+        </div>
+      </div>
+      <!--Entreprise-->
+      <div class="col-12 col-md-6 col-lg-4">
+        <div class="card h-100 text-center p-4">
+          <h3>Entreprise</h3>
+          <h2>99$/mois</h2>
+          <ul class="list-unstyled my-4">
+            <li>✔Utilisateur illimités</li>
+            <li>✔Support dédié</li>
+            <li>✔Tableau de bord avancé</li>
+            <li>✔API compléte</li>
+          </ul>
+          <a href="#" class="btn btn-dark">Contacter</a>
+        </div>
+      </div>
     </div>
- </div>
+  </div>
+ </section>
  
  <!-- FAQ -->
   <section>
@@ -159,11 +166,93 @@ src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.j
 </div>
 </section>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/boottstrap.bundle.min.js"></script>
-  <!-- Ligne copyright -->
+  <footer class="bg-dark text-white py-5">
+
+    <div class="container">
+
+      <div class="row">
+
+        <div class="col-lg-4">
+
+          <h2>
+           <a class="navbar-brand text-white"><img src="image/WhatsApp Image 2026-05-11 at 09.48.34.jpeg" width="90PX" >AfriTalent</a>
+          </h2>
+
+          <p>
+            AfriTalent connecte les entreprises et freelances.
+          </p>
+
+          <div class="socials">
+            <i class="bi bi-facebook"></i>
+            <i class="bi bi-linkedin"></i>
+            <i class="bi bi-instagram"></i>
+            <i class="bi bi-twitter"></i>
+            <i class="bi bi-snapchat"></i>
+          </div>
+
+        </div>
+
+        <div class="col-lg-2 ">
+          <div class="d-flex flex-column">
+            <h4>Liens</h4>
+
+            <a href="#">Accueil</a>
+            <a href="#">Freelances</a>
+            <a href="#">Tarifs</a>
+            <a href="#">A propos</a>
+            <a href="#">Contact</a>
+          </div>
+        </div>
+
+        <div class="col-lg-3">
+          <div class="d-flex flex-column">
+            <h4>Ressources</h4>
+
+            <a href="#">Guides</a>
+            <a href="#">Sécurité</a>
+            <a href="#">Politique</a>
+          </div>
+        </div>
+
+        <div class="col-lg-3">
+
+          <div class="d-flex flex-column">
+            <h4>Contact</h4>
+
+            <strong>Email : contact@afritalent.com</strong>
+            <strong>Tel : +221 77-956-18-26</strong>
+            <strong>Addresse : Dakar , Senegal </strong>
+
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+                            <!-- Réseaux sociaux -->
+                             <div>
+                                <i class="bi bi-fecebook"><i class="fa-brands fa-facebook"></i></i>
+                                <i class="bi bi-twitter"><i class="fa-brands fa-twitter"></i></i>
+                                <i class="bi bi-tiktok"><i class="fa-brands fa-tiktok"></i></i>
+                                <i class="bi bi-instagram"><i class="fa-brands fa-instagram"></i></i>
+                             </div>
+                         </div>
+                    </div>
+
+                    <!-- Ligne copyright -->
                      <div class="text-center mt-4 border-top pt-3">
                         <p>
                         &copy; <span id="year"></span>AfriTalent.Tous droits réservés.
                         </p>
                      </div>
+                </footer>
+            </section>
+            
  </body>
 </html>
+  
