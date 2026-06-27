@@ -26,6 +26,11 @@ h2{
     --body-font: 'Roboto' , sans-serif;
  }
 
+ .error {
+   color: red;
+   font-size: 14px;
+ }
+
 
 .fade-in {
    opacity: 0;
@@ -48,6 +53,10 @@ h2{
  }
  .navbar{
    transition: all 0.3s ease;
+   position: fixed;
+   width: 100%;
+   z-index: 1000;
+   top: 0;
  }
  .navbar.scrolled{
    padding: 8px 0;
@@ -61,6 +70,10 @@ h2{
    right: 20px;
    display: none;
    z-index: 1000;
+   width: 50px;
+   height: 50px;
+   border: none;
+   border-radius: 50%;
  }
 
  .card1{grid-column:span 3;}
@@ -175,7 +188,6 @@ h2{
 }
 .bi{
    grid-template-columns: auto;
-
 }
 
 .card:hover {
