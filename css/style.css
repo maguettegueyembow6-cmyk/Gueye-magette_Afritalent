@@ -46,6 +46,9 @@ h2{
    background-color: #111827;
    color: white;
  }
+ .dark-mode a{
+   color: rgb(26, 47, 236);
+ }
  .navbar.scrolled {
    background: white;
    box-shadow: 0 2px 10px rgba(0, 0, 0, 0,2);

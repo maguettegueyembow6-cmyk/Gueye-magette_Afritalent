@@ -1,4 +1,3 @@
-const { sections } = require("./sections");
 
 const toggleBtn = document.getElementById("theme-toggle");
 if(localStorage.getItem("theme") === "dark"){
@@ -17,6 +16,8 @@ window.addEventListener("scroll", () =>{
     const navbar = document.querySelector(".navbar");
     if(window.scrollY > 50){
         navbar.classList.remove("scrolled");
+    } else {
+        navbar.classList.remove("scroll")
     }
 });
 const backToTop = document.getElementById("backToTop");
